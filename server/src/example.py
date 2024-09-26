@@ -1,10 +1,14 @@
 # I made this as an example of how flask will run and how you'll annotate your endpoints
 from flask import Flask, request, jsonify
+from flask_cors import CORS 
+
 
 class example: 
     def __init__(self):
         self.app = Flask(__name__)
         self.ppl = []
+        self.cors = CORS(self.app, origins=['*'])
+
         self.setup_routes()
 
     def setup_routes(self):

@@ -1,13 +1,28 @@
 # HOW-TO-SETUP-GUIDE
-- SEGMENTS
-    - Flask application
-    - React application
-    
+
+## TWO PARTS
+
+- **REACT APPLICATION**
+- **FLASK APPLICATION**
+
+## React application
+
+### Installation
+
+- **GET INTO THE RIGHT DIRECTORY** Change directories into ./front-end
+- **INSTALL DEPENDENCIES** run "npm install -f"
+
+### Running local environment
+
+- To have local dev server, run **npm run dev**
+
+# ==================================================================
+
 ## Flask Application
 
 ### Project Description
 
-This is a Flask-based web application that provides various endpoints to manage users. The application supports adding, retrieving, and deleting users using HTTP methods like `POST`, `GET`, and `DELETE`.
+This is a dummy project that provides various endpoints to manage users. The application supports adding, retrieving, and deleting users using HTTP methods like `POST`, `GET`, and `DELETE`.
 
 ### Features
 
@@ -16,11 +31,11 @@ This is a Flask-based web application that provides various endpoints to manage 
 - **Delete Users**: Delete a user by their name via a `DELETE` request. ENDPOINT:`/api/deleteUser/`
 
 ### Installation
-- **GET INTO THE RIGHT DIRECTORY** Change directories into ./server
-- **CREATE A VENV** *MAC* python3 -m venv .venv | *WINDOWS* python -m venv .venv
-- **ACTIVATE THE VENV** *MAC* source .venv/bin/activate | *WINDOWS* .venv\Scripts\activate
-- **INSTALL REQUIREMENTS FOR VENV** *MAC* pip install -r requirements.txt | *WINDOWS* pip install -r requirements.txt
 
+- **GET INTO THE RIGHT DIRECTORY** Change directories into ./server
+- **CREATE A VENV** _MAC_ python3 -m venv .venv | _WINDOWS_ python -m venv .venv
+- **ACTIVATE THE VENV** _MAC_ source .venv/bin/activate | _WINDOWS_ .venv\Scripts\activate
+- **INSTALL REQUIREMENTS FOR VENV** _MAC_ pip install -r requirements.txt | _WINDOWS_ pip install -r requirements.txt
 
 #### Prerequisites
 
